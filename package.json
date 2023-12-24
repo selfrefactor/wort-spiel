@@ -3,7 +3,7 @@
 	"scripts": {
 		"dev": "vite --port=4000",
 		"dev:fix": "vite --force --port=4000",
-		"build:script": "tsc && vite build",
+		"out": "tsc && vite build",
 		"test": "vitest",
 		"testx": "vitest watch --update --bail 1",
 		"test:dev": "vitest watch --update src/foo.spec.ts"
@@ -21,6 +21,7 @@
 		"styled-icons": "10.47.0"
 	},
 	"devDependencies": {
+		"@types/jest": "^29.5.11",
 		"@types/node": "20.10.5",
 		"@types/react-dom": "18.2.18",
 		"@types/react-router-dom": "5.3.3",
