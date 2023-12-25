@@ -1,12 +1,12 @@
 {
-	"name": "foo",
+	"name": "wort-spiel",
 	"scripts": {
 		"dev": "vite --port=4000",
 		"dev:fix": "vite --force --port=4000",
 		"out": "tsc && vite build",
 		"test": "vitest",
 		"testx": "vitest watch --update --bail 1",
-		"test:dev": "vitest watch --update src/foo.spec.ts"
+		"test:dev": "vitest watch --update src/wort-spiel.spec.ts"
 	},
 	"version": "0.1.0",
 	"type": "module",
